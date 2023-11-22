@@ -127,6 +127,9 @@
   <data name="ordenar_decendente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ordenar_decendente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="descarga (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga (2).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,31 +142,31 @@
   <data name="Pixel_Art_Seamless_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pixel Art Seamless Background.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ordenar_acendente1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ordenar_acendente1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ARREGLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ARREGLO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="anadir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\anadir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TITULO DE ORDENAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TITULO DE ORDENAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pushen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pushen.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="expediente_eliminado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expediente_eliminado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pushen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pushen.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anadir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anadir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Steam Community __  __ Hollow Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Steam Community __  __ Hollow Knight.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="expediente_eliminado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\expediente_eliminado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ordenar_acendente1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ordenar_acendente1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descarga (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga (2).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Premium Vector _ Blue sky cloud in pixel art style" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premium Vector _ Blue sky cloud in pixel art style.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

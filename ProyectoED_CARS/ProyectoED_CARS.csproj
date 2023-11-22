@@ -161,5 +161,8 @@
   <ItemGroup>
     <None Include="Resources\descarga %282%29.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Vector _ Blue sky cloud in pixel art style.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

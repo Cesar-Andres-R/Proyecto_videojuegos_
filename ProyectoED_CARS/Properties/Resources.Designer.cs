@@ -193,6 +193,16 @@ namespace ProyectoED_CARS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Premium_Vector___Blue_sky_cloud_in_pixel_art_style {
+            get {
+                object obj = ResourceManager.GetObject("Premium Vector _ Blue sky cloud in pixel art style", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pushen {
             get {
                 object obj = ResourceManager.GetObject("Pushen", resourceCulture);
