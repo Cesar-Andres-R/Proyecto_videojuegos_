@@ -19,7 +19,7 @@ namespace ProyectoED_CARS
 
         private void btnArray_Click(object sender, EventArgs e)
         {
-            EDarreglo arreglos = new EDarreglo();
+            Arreglos arreglos = new Arreglos();
             arreglos.Show();
         }
 

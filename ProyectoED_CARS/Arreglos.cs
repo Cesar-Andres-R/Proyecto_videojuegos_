@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoED_CARS
 {
-    public partial class EDarreglo : Form
+    public partial class Arreglos : Form
     {
-        public EDarreglo()
+        public Arreglos()
         {
             InitializeComponent();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
-
-        private void EDarreglo_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -63,9 +63,39 @@ namespace ProyectoED_CARS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap agregar_archivo {
+        internal static System.Drawing.Bitmap anadir {
             get {
-                object obj = ResourceManager.GetObject("agregar_archivo", resourceCulture);
+                object obj = ResourceManager.GetObject("anadir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ARREGLO {
+            get {
+                object obj = ResourceManager.GetObject("ARREGLO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blanco {
+            get {
+                object obj = ResourceManager.GetObject("blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga__2_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +113,29 @@ namespace ProyectoED_CARS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap eliminar {
+        internal static System.Drawing.Bitmap expediente_eliminado {
             get {
-                object obj = ResourceManager.GetObject("eliminar", resourceCulture);
+                object obj = ResourceManager.GetObject("expediente_eliminado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hollow_Knight_4k_Ultra_Fondo_de_pantalla_HD {
+            get {
+                object obj = ResourceManager.GetObject("Hollow Knight 4k Ultra Fondo de pantalla HD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hongo_verde {
+            get {
+                object obj = ResourceManager.GetObject("hongo verde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +153,69 @@ namespace ProyectoED_CARS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ordenar_acendente {
+            get {
+                object obj = ResourceManager.GetObject("ordenar_acendente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ordenar_acendente1 {
+            get {
+                object obj = ResourceManager.GetObject("ordenar_acendente1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ordenar_decendente {
+            get {
+                object obj = ResourceManager.GetObject("ordenar_decendente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pixel_Art_Seamless_Background {
             get {
                 object obj = ResourceManager.GetObject("Pixel_Art_Seamless_Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pushen {
+            get {
+                object obj = ResourceManager.GetObject("Pushen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Steam_Community________Hollow_Knight {
+            get {
+                object obj = ResourceManager.GetObject("Steam Community __  __ Hollow Knight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TITULO_DE_ORDENAR {
+            get {
+                object obj = ResourceManager.GetObject("TITULO DE ORDENAR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

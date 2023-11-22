@@ -1,6 +1,6 @@
 ﻿namespace ProyectoED_CARS
 {
-    partial class EDlista
+    partial class Arreglos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,39 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCerrar = new System.Windows.Forms.Button();
             this.btnOrdenarDecendente = new System.Windows.Forms.Button();
             this.btnOrdenarAcendente = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Location = new System.Drawing.Point(1074, 643);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(114, 34);
-            this.btnCerrar.TabIndex = 6;
-            this.btnCerrar.Text = "Cerrar";
-            this.btnCerrar.UseVisualStyleBackColor = true;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnOrdenarDecendente
             // 
@@ -68,9 +57,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOrdenarDecendente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenarDecendente.Location = new System.Drawing.Point(-2, 583);
+            this.btnOrdenarDecendente.Location = new System.Drawing.Point(-4, 557);
             this.btnOrdenarDecendente.Name = "btnOrdenarDecendente";
-            this.btnOrdenarDecendente.Size = new System.Drawing.Size(228, 97);
+            this.btnOrdenarDecendente.Size = new System.Drawing.Size(228, 95);
             this.btnOrdenarDecendente.TabIndex = 23;
             this.btnOrdenarDecendente.Text = "Decendente";
             this.btnOrdenarDecendente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -82,9 +71,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOrdenarAcendente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenarAcendente.Location = new System.Drawing.Point(-2, 479);
+            this.btnOrdenarAcendente.Location = new System.Drawing.Point(-4, 471);
             this.btnOrdenarAcendente.Name = "btnOrdenarAcendente";
-            this.btnOrdenarAcendente.Size = new System.Drawing.Size(228, 105);
+            this.btnOrdenarAcendente.Size = new System.Drawing.Size(228, 92);
             this.btnOrdenarAcendente.TabIndex = 22;
             this.btnOrdenarAcendente.Text = "Acendente";
             this.btnOrdenarAcendente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -96,9 +85,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(-2, 202);
+            this.btnModificar.Location = new System.Drawing.Point(-4, 204);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(228, 91);
+            this.btnModificar.Size = new System.Drawing.Size(228, 94);
             this.btnModificar.TabIndex = 17;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -110,9 +99,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(-2, 291);
+            this.btnEliminar.Location = new System.Drawing.Point(-4, 293);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(228, 103);
+            this.btnEliminar.Size = new System.Drawing.Size(228, 92);
             this.btnEliminar.TabIndex = 16;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -124,20 +113,30 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(-2, 108);
+            this.btnAgregar.Location = new System.Drawing.Point(-4, 97);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(228, 94);
+            this.btnAgregar.Size = new System.Drawing.Size(228, 113);
             this.btnAgregar.TabIndex = 15;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::ProyectoED_CARS.Properties.Resources.Hollow_Knight_4k_Ultra_Fondo_de_pantalla_HD;
+            this.pictureBox8.Location = new System.Drawing.Point(221, -4);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(1022, 667);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 26;
+            this.pictureBox8.TabStop = false;
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = global::ProyectoED_CARS.Properties.Resources.ordenar_acendente1;
-            this.pictureBox7.Location = new System.Drawing.Point(-2, 479);
+            this.pictureBox7.Location = new System.Drawing.Point(-4, 471);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(91, 105);
+            this.pictureBox7.Size = new System.Drawing.Size(91, 92);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 25;
             this.pictureBox7.TabStop = false;
@@ -145,17 +144,27 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::ProyectoED_CARS.Properties.Resources.ordenar_decendente;
-            this.pictureBox6.Location = new System.Drawing.Point(-2, 583);
+            this.pictureBox6.Location = new System.Drawing.Point(-4, 560);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(91, 95);
+            this.pictureBox6.Size = new System.Drawing.Size(91, 92);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 24;
             this.pictureBox6.TabStop = false;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ProyectoED_CARS.Properties.Resources.TITULO_DE_ORDENAR;
+            this.pictureBox5.Location = new System.Drawing.Point(-4, 379);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(228, 95);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 21;
+            this.pictureBox5.TabStop = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ProyectoED_CARS.Properties.Resources.expediente_eliminado;
-            this.pictureBox4.Location = new System.Drawing.Point(-2, 291);
+            this.pictureBox4.Location = new System.Drawing.Point(-4, 293);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(91, 92);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -165,7 +174,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ProyectoED_CARS.Properties.Resources.editar;
-            this.pictureBox3.Location = new System.Drawing.Point(-2, 202);
+            this.pictureBox3.Location = new System.Drawing.Point(-4, 204);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(91, 94);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -175,9 +184,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProyectoED_CARS.Properties.Resources.anadir;
-            this.pictureBox2.Location = new System.Drawing.Point(-2, 108);
+            this.pictureBox2.Location = new System.Drawing.Point(-4, 97);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 97);
+            this.pictureBox2.Size = new System.Drawing.Size(91, 113);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
@@ -185,42 +194,24 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProyectoED_CARS.Properties.Resources.ARREGLO;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(-4, -4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(228, 115);
+            this.pictureBox1.Size = new System.Drawing.Size(228, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ProyectoED_CARS.Properties.Resources.TITULO_DE_ORDENAR;
-            this.pictureBox5.Location = new System.Drawing.Point(-2, 386);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(228, 95);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 21;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::ProyectoED_CARS.Properties.Resources.descarga__2_;
-            this.pictureBox8.Location = new System.Drawing.Point(222, -2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(983, 695);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 26;
-            this.pictureBox8.TabStop = false;
-            // 
-            // EDlista
+            // Arreglos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 689);
+            this.ClientSize = new System.Drawing.Size(1238, 655);
+            this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.btnOrdenarDecendente);
             this.Controls.Add(this.btnOrdenarAcendente);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -228,26 +219,22 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnCerrar);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox8);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "EDlista";
-            this.Text = "EDlista";
+            this.Name = "Arreglos";
+            this.Text = "Arreglos";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnCerrar;
+
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button btnOrdenarDecendente;

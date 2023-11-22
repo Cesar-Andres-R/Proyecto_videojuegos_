@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arreglos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arreglos.Designer.cs">
+      <DependentUpon>Arreglos.cs</DependentUpon>
+    </Compile>
     <Compile Include="EDcola.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,14 +76,11 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="EDarreglo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EDarreglo.Designer.cs">
-      <DependentUpon>EDarreglo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Arreglos.resx">
+      <DependentUpon>Arreglos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EDcola.resx">
       <DependentUpon>EDcola.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,9 +92,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EDarreglo.resx">
-      <DependentUpon>EDarreglo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +133,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TITULO DE ORDENAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordenar_acendente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hongo verde.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hollow Knight 4k Ultra Fondo de pantalla HD.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pushen.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steam Community __  __ Hollow Knight.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %282%29.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
